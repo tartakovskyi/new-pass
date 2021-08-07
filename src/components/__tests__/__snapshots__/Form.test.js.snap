@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render correctly 1`] = `
+<form
+  class="css-kx6wjg"
+>
+  <div
+    class="chakra-form-control css-vhwfhc"
+    role="group"
+  >
+    <label
+      class="chakra-form__label css-uvho5g"
+      for="oldPass"
+      id="oldPass-label"
+    >
+      Old password
+    </label>
+    <input
+      class="chakra-input css-0"
+      id="oldPass"
+      name="oldPass"
+      type="password"
+      value=""
+    />
+  </div>
+  <div
+    class="chakra-form-control css-vhwfhc"
+    role="group"
+  >
+    <label
+      class="chakra-form__label css-uvho5g"
+      for="newPass"
+      id="newPass-label"
+    >
+      New password
+    </label>
+    <input
+      class="chakra-input css-0"
+      id="newPass"
+      name="newPass"
+      type="password"
+      value=""
+    />
+  </div>
+  <div
+    class="chakra-form-control css-vhwfhc"
+    role="group"
+  >
+    <label
+      class="chakra-form__label css-uvho5g"
+      for="confirmPass"
+      id="confirmPass-label"
+    >
+      Confirm new password
+    </label>
+    <input
+      class="chakra-input css-0"
+      id="confirmPass"
+      name="confirmPass"
+      type="password"
+      value=""
+    />
+  </div>
+  <button
+    class="chakra-button css-5c2176"
+    disabled=""
+    type="submit"
+  >
+    Save changes
+  </button>
+</form>
+`;

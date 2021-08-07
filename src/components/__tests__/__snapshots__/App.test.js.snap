@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+<div
+  class="css-36s324"
+>
+  <div
+    class="chakra-stack css-owjkmg"
+  >
+    <h1
+      class="chakra-heading css-ad97t1"
+    >
+      Create Your New Password
+    </h1>
+    <form
+      class="css-kx6wjg"
+    >
+      <div
+        class="chakra-form-control css-c1qqtu"
+        role="group"
+      >
+        <label
+          class="chakra-form__label css-2gx1h6"
+          for="oldPass"
+          id="oldPass-label"
+        >
+          Old password
+        </label>
+        <input
+          class="chakra-input css-1lw1oo1"
+          id="oldPass"
+          name="oldPass"
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        class="chakra-form-control css-c1qqtu"
+        role="group"
+      >
+        <label
+          class="chakra-form__label css-2gx1h6"
+          for="newPass"
+          id="newPass-label"
+        >
+          New password
+        </label>
+        <input
+          class="chakra-input css-1lw1oo1"
+          id="newPass"
+          name="newPass"
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        class="chakra-form-control css-c1qqtu"
+        role="group"
+      >
+        <label
+          class="chakra-form__label css-2gx1h6"
+          for="confirmPass"
+          id="confirmPass-label"
+        >
+          Confirm new password
+        </label>
+        <input
+          class="chakra-input css-1lw1oo1"
+          id="confirmPass"
+          name="confirmPass"
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        class="chakra-button css-1en85ns"
+        disabled=""
+        type="submit"
+      >
+        Save changes
+      </button>
+    </form>
+  </div>
+</div>
+`;
