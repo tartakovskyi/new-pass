@@ -38,22 +38,25 @@ const Form = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    validate(true);
-    toggleBtnIsLoading(true);
+    const valid = validate(true);
 
-    setTimeout(() => {
-      toggleBtnIsLoading(false);
+    if (valid) {
+      toggleBtnIsLoading(true);
 
-      toast({
-        title: 'Password is changed',
-        description: 'You can use new password for the log in',
-        status: 'success',
-        duration: 9000,
-        isClosable: true,
-      });
+      setTimeout(() => {
+        toggleBtnIsLoading(false);
 
-      setData(initialData);
-    }, 1000);
+        toast({
+          title: 'Password is changed',
+          description: 'You can use new password for the log in',
+          status: 'success',
+          duration: 9000,
+          isClosable: true,
+        });
+
+        setData(initialData);
+      }, 1000);
+    }
   };
 
   const validate = (submit = false) => {
@@ -85,6 +88,8 @@ const Form = () => {
     }
 
     setErrors(errors);
+
+    return !Object.keys(errors).length;
   };
 
   return (
